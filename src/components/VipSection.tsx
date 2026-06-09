@@ -86,14 +86,14 @@ export const VipSection: React.FC = () => {
               
               {/* Alternative Currency (for global users) */}
               <div className="text-xs text-gray-400 font-medium -mt-4 mb-6 border-b border-white/5 pb-4">
-                Secure checkout processed via <span className="font-bold text-white">Paystack Ghana</span>
+                Order directly via <span className="font-bold text-white">WhatsApp</span> — fast & easy
               </div>
 
               {/* Quick Details */}
               <ul className="space-y-3 mb-8">
                 <li className="flex items-center space-x-2 text-xs text-gray-300">
                   <Zap className="w-4 h-4 text-sporty-gold fill-sporty-gold" />
-                  <span>Instant access via secure Paystack channel</span>
+                  <span>Instant access via WhatsApp — message the owner directly</span>
                 </li>
                 <li className="flex items-center space-x-2 text-xs text-gray-300">
                   <Zap className="w-4 h-4 text-sporty-gold fill-sporty-gold" />
@@ -109,7 +109,7 @@ export const VipSection: React.FC = () => {
             {/* Pay buttons */}
             <div className="space-y-3">
               <a
-                href={`https://paystack.com/pay/kwesicue-vip?callback_url=${encodeURIComponent('https://wa.me/233531349993?text=' + encodeURIComponent('Hi, I just paid for the VIP Elite 3-Day Pass on Kwesi Cue Odds. Please activate my access.'))}`}
+                href={`https://wa.me/233531349993?text=${encodeURIComponent('Hi, I want to subscribe to the VIP Elite 3-Day Pass on Kwesi Cue Odds for GH₵50. Please activate my access.')}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full flex items-center justify-center space-x-2 py-4 bg-gradient-to-r from-sporty-gold to-yellow-600 hover:from-yellow-500 hover:to-yellow-700 text-black font-black text-sm uppercase tracking-wider rounded-2xl transition-all duration-300 transform hover:scale-[1.02] active:scale-95 shadow-lg shadow-sporty-gold/20"
@@ -118,7 +118,7 @@ export const VipSection: React.FC = () => {
                 <ArrowRight className="w-4 h-4" />
               </a>
               <p className="text-[10px] text-center text-gray-500">
-                Powered by Paystack · Secured &amp; Encrypted · WhatsApp delivery after payment
+                Message owner on WhatsApp · Fast Activation · Instant Code Delivery
               </p>
             </div>
           </div>
