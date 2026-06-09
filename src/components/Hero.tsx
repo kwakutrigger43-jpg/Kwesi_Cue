@@ -76,7 +76,7 @@ export const Hero: React.FC<HeroProps> = ({ onScrollToSlips, activeSlipsCount })
             </div>
           </div>
           <div className="p-4 rounded-2xl bg-white/[0.02] border border-white/5 hover:border-white/10 transition-all duration-300 text-center">
-            <div className="text-2xl sm:text-3xl font-black text-sporty-green italic">154.20</div>
+            <div className="text-2xl sm:text-3xl font-black text-sporty-green italic">1500</div>
             <div className="text-xs text-gray-400 uppercase tracking-widest mt-1 font-semibold flex items-center justify-center gap-1.5">
               <TrendingUp className="w-3.5 h-3.5 text-sporty-green" /> Max Odds Won
             </div>

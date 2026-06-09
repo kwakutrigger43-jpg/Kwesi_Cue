@@ -72,7 +72,7 @@ export const VipSection: React.FC = () => {
               </div>
 
               <span className="text-xs font-bold text-sporty-gold uppercase tracking-widest block font-mono">
-                3-DAY ACCESS PASS
+                DAILY ACCESS PASS
               </span>
               <h3 className="text-2xl font-black text-white uppercase italic mt-1 mb-4">
                 VIP ELITE PASS
@@ -81,7 +81,7 @@ export const VipSection: React.FC = () => {
               {/* Price */}
               <div className="flex items-baseline gap-2 mb-6">
                 <span className="text-5xl font-black tracking-tight text-white font-mono">GH₵ 50</span>
-                <span className="text-gray-400 text-sm font-semibold">/ 3 days</span>
+                <span className="text-gray-400 text-sm font-semibold">/ day</span>
               </div>
               
               {/* Alternative Currency (for global users) */}
@@ -101,7 +101,7 @@ export const VipSection: React.FC = () => {
                 </li>
                 <li className="flex items-center space-x-2 text-xs text-gray-300">
                   <Zap className="w-4 h-4 text-sporty-gold fill-sporty-gold" />
-                  <span>Valid for 3 days — renew anytime</span>
+                  <span>Valid for 1 day — renew anytime</span>
                 </li>
               </ul>
             </div>
@@ -109,12 +109,12 @@ export const VipSection: React.FC = () => {
             {/* Pay buttons */}
             <div className="space-y-3">
               <a
-                href={`https://wa.me/233531349993?text=${encodeURIComponent('Hi, I want to subscribe to the VIP Elite 3-Day Pass on Kwesi Cue Odds for GH₵50. Please activate my access.')}`}
+                href={`https://wa.me/233531349993?text=${encodeURIComponent('Hi, I want to subscribe to the VIP Elite Daily Pass on Kwesi Cue Odds for GH₵50/day. Please activate my access.')}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full flex items-center justify-center space-x-2 py-4 bg-gradient-to-r from-sporty-gold to-yellow-600 hover:from-yellow-500 hover:to-yellow-700 text-black font-black text-sm uppercase tracking-wider rounded-2xl transition-all duration-300 transform hover:scale-[1.02] active:scale-95 shadow-lg shadow-sporty-gold/20"
               >
-                <span>Unlock VIP — GH₵50 / 3 Days</span>
+                <span>Unlock VIP — GH₵50 / Day</span>
                 <ArrowRight className="w-4 h-4" />
               </a>
               <p className="text-[10px] text-center text-gray-500">
