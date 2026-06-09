@@ -3,12 +3,11 @@ import { Crown, CheckCircle2, Zap, ShieldCheck, ArrowRight } from 'lucide-react'
 
 export const VipSection: React.FC = () => {
   const vipFeatures = [
-    "2 - 5 Daily Premium Banker Slips",
-    "High Probability Accumulators (10x - 50x Odds)",
-    "Exclusive Telegram Chat Group & Support",
+    "5-Day Rollover Plan — grow your stake daily",
+    "Curated low-risk rollover slips (2x - 5x per day)",
+    "Step-by-step staking guide included",
+    "Exclusive Rollover Telegram Group & Support",
     "Early Bird Booking Codes (12 hours before kickoff)",
-    "Rollover betting strategies & advice",
-    "Refund guarantee if first banker loses"
   ];
 
   return (
@@ -25,13 +24,13 @@ export const VipSection: React.FC = () => {
             <span>VIP ELITE CLUB</span>
           </div>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-black text-white uppercase italic tracking-tight">
-            UNLOCK THE LOCKS. <br />
+            ROLL IT OVER. <br />
             <span className="bg-gradient-to-r from-sporty-gold to-yellow-500 bg-clip-text text-transparent">
-              MULTIPLY YOUR STAKES.
+              STACK YOUR WINNINGS.
             </span>
           </h2>
           <p className="text-gray-400 text-sm sm:text-base max-w-2xl mx-auto mt-4">
-            Join thousands of successful stakers receiving verified, high-probability banker slips curated by our expert team of sports analysts.
+            Our 5-Day Rollover VIP Plan turns small stakes into big wins. Every day builds on the last — expertly curated low-risk slips designed to multiply your bankroll consistently.
           </p>
         </div>
 
@@ -42,7 +41,7 @@ export const VipSection: React.FC = () => {
             <div>
               <h3 className="text-lg font-black text-white uppercase tracking-wider mb-6 flex items-center gap-2">
                 <ShieldCheck className="w-5 h-5 text-sporty-green" />
-                Why Upgrade to VIP?
+                Why Join the Rollover VIP Plan?
               </h3>
               
               <div className="space-y-4">
@@ -56,7 +55,7 @@ export const VipSection: React.FC = () => {
             </div>
 
             <div className="mt-8 pt-6 border-t border-white/5 text-xs text-gray-500 font-mono">
-              * VIP stats are tracked and audited. We average an 89.2% monthly success rate.
+              * Rollover results are tracked daily. Average 5-day rollover return: 10x — 30x your initial stake.
             </div>
           </div>
 
@@ -72,16 +71,16 @@ export const VipSection: React.FC = () => {
               </div>
 
               <span className="text-xs font-bold text-sporty-gold uppercase tracking-widest block font-mono">
-                DAILY ACCESS PASS
+                5-DAY ROLLOVER PASS
               </span>
               <h3 className="text-2xl font-black text-white uppercase italic mt-1 mb-4">
-                VIP ELITE PASS
+                VIP ROLLOVER PLAN
               </h3>
 
               {/* Price */}
               <div className="flex items-baseline gap-2 mb-6">
-                <span className="text-5xl font-black tracking-tight text-white font-mono">GH₵ 50</span>
-                <span className="text-gray-400 text-sm font-semibold">/ day</span>
+                <span className="text-5xl font-black tracking-tight text-white font-mono">GH₵ 70</span>
+                <span className="text-gray-400 text-sm font-semibold">/ 5 days</span>
               </div>
               
               {/* Alternative Currency (for global users) */}
@@ -93,15 +92,15 @@ export const VipSection: React.FC = () => {
               <ul className="space-y-3 mb-8">
                 <li className="flex items-center space-x-2 text-xs text-gray-300">
                   <Zap className="w-4 h-4 text-sporty-gold fill-sporty-gold" />
-                  <span>Instant access via WhatsApp — message the owner directly</span>
+                  <span>Daily rollover slip delivered straight to your WhatsApp</span>
                 </li>
                 <li className="flex items-center space-x-2 text-xs text-gray-300">
                   <Zap className="w-4 h-4 text-sporty-gold fill-sporty-gold" />
-                  <span>After payment, you'll be redirected to WhatsApp for instant code delivery</span>
+                  <span>Includes staking guide — know exactly how much to stake each day</span>
                 </li>
                 <li className="flex items-center space-x-2 text-xs text-gray-300">
                   <Zap className="w-4 h-4 text-sporty-gold fill-sporty-gold" />
-                  <span>Valid for 1 day — renew anytime</span>
+                  <span>Valid for 5 days — renew anytime to keep rolling</span>
                 </li>
               </ul>
             </div>
@@ -109,16 +108,16 @@ export const VipSection: React.FC = () => {
             {/* Pay buttons */}
             <div className="space-y-3">
               <a
-                href={`https://wa.me/233531349993?text=${encodeURIComponent('Hi, I want to subscribe to the VIP Elite Daily Pass on Kwesi Cue Odds for GH₵50/day. Please activate my access.')}`}
+                href={`https://wa.me/233531349993?text=${encodeURIComponent('Hi, I want to join the VIP Rollover Plan on Kwesi Cue Odds for GH₵70 / 5 days. Please activate my access.')}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full flex items-center justify-center space-x-2 py-4 bg-gradient-to-r from-sporty-gold to-yellow-600 hover:from-yellow-500 hover:to-yellow-700 text-black font-black text-sm uppercase tracking-wider rounded-2xl transition-all duration-300 transform hover:scale-[1.02] active:scale-95 shadow-lg shadow-sporty-gold/20"
               >
-                <span>Unlock VIP — GH₵50 / Day</span>
+                <span>Start Rolling — GH₵70 / 5 Days</span>
                 <ArrowRight className="w-4 h-4" />
               </a>
               <p className="text-[10px] text-center text-gray-500">
-                Message owner on WhatsApp · Fast Activation · Instant Code Delivery
+                Message owner on WhatsApp · Rollover Guide Included · 5-Day Access
               </p>
             </div>
           </div>
